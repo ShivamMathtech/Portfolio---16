@@ -184,3 +184,30 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+.service-box {
+  height: 100px;
+  width: 100px;
+  background-color: #09e0a5;
+}
+.blog-box {
+  height: 200px;
+  background-color: var(--page-colour-1);
+}
+.img-blog {
+  height: 100%;
+
+  background-size: cover;
+  background-image: url("blog.jfif");
+}
+.contact-box {
+  height: 100px;
+  width: 200px;
+  border: 1px solid white;
+}
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #25232e;
+}
